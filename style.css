@@ -1,0 +1,57 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial", Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container {
+
+    width: 700px;
+    background: #efefef;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+input {
+
+    width: 60%;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: #111;
+    border: none;
+    outline: none;
+}
+
+button{
+
+    padding: 8px 20px;
+    border-radius: 15px;
+    background: #111;
+    color: #fff;
+    font-size: 16px;
+    border:none;
+    cursor: pointer;
+}
+
+.list{
+
+    margin-top: 20px;
+}
+
+.list-item {
+
+    background: rgba(17, 17, 17, 0.8);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    overflow-wrap: break-word; /*sortörés*/
+    cursor: pointer;
+}
+
+
+
